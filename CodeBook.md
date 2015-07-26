@@ -11,11 +11,11 @@ Each column presents the data averaged for the different signals measured for ea
 
 
 
-* "Subject.ID" Identification of a person (integer number from 1 to 30). 
+* "Subject.ID": Identification of a person (integer number from 1 to 30). 
 
-* "activity_Name" Name of the activity performed by a person. Includes: "WALKING"; "WALKING_UPSTAIRS"; "WALKING_DOWNSTAIRS"; "SITTING"; "STANDING"; "LAYING".
+* "activity_Name": Name of the activity performed by a person. Includes: "WALKING"; "WALKING_UPSTAIRS"; "WALKING_DOWNSTAIRS"; "SITTING"; "STANDING"; "LAYING".
 
-* 66 different measurements/calculation (all values are averaged), taken from the original data set:
+* 66 different measurements/calculations (see below), taken from the original data set. Values are in floating point format and represent the average values for each person/activity pair (each row in the table).
 ```
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
