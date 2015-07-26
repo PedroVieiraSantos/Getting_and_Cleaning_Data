@@ -1,8 +1,11 @@
 # Code Book 
 
-After creating the tidy data set (script "run_analysis.R") from the original data set, a variable DT_tidy (a data.table variable in R) is created containing all the relevant information. A file "tidy_data.txt" is also created that includes the same data set. 
+After creating the tidy data set (script "run_analysis.R") from the original data set, a variable *DT_tidy* (a data.table variable in R) is created containing all the relevant information. A file "tidy_data.txt" is also created that includes the same data set. 
+
 The tidy data set has 180 rows by 68 columns. 
+
 Each row presents all the relevant data (average value) for a given person and a given activity (30 people with 6 activities each). 
+
 Each column presents the data averaged for the different signals measured for each person/activity pair; the 2 first columns identify the person and the activity, and the remaining 66 the different signals/measurements. 
 
 
